@@ -11,7 +11,7 @@ const logoUp = () => {
 const eventos= [
   {
     "id":1,
-    "nombre": "Expo. Globos Aerostáticos pipipipipipipiiipipipiipipipippiipipppipipiippipippipippippipippipipipipipippppipipippipipipippipipippipipipipip",
+    "nombre": "Expo. Globos Aerostáticos ",
     "disponibles": 200,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPE7q_71BoPkj-DqJuiekoyns7n4cojgCmxg&s"
   },

@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import './screens/AvailableEvents.js'
-import AvailableEvents from './screens/AvailableEvents.js';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomTabNavigator from './navigation/BottomTabNavigator.jsx';
 
 export default function App() {
   return (
-  
-      <AvailableEvents/>
+    <NavigationContainer>
+      <BottomTabNavigator/>
+    </NavigationContainer>
 
   );
 }
